@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <style>
+    /* 마우스 오버 시 버튼 스타일 변경 */
+    .download-btn {
+            background-color: #000000;
+            color: #ffffff;
+            transition: background-color 0.3s, color 0.3s;
+            margin-top: -1px;
+        }
+    .download-btn:hover {
+        background-color: transparent;
+        color: #007bff;
+    }
+</style>
+  <title>알파천국</title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,700&display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="hero_area ">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo2.png" alt="">
+          </a>
+          <div class="" id="">
+            <div class="User_option">
+              <form class="form-inline my-2  mb-3 mb-lg-0">
+                <input type="search" placeholder="Search">
+                <button class="btn   my-sm-0 nav_search-btn" type="submit"></button>
+              </form>
+            </div>
+
+            <div class="custom_menu-btn">
+              <button onclick="openNav()">
+                <span class="s-1">
+
+                </span>
+                <span class="s-2">
+
+                </span>
+                <span class="s-3">
+
+                </span>
+              </button>
+            </div>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="index.html">알파천국</a>
+                <a href="about.html">디지털 캐릭터</a>
+                <a href="game.html">명탐정 어드벤처 활동세트</a>
+                <a href="book.html">활동 도움 자료</a>
+                <a href="contact.html">사건일지</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class="slider_section">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-5 offset-md-1">
+                  <div class="detail-box">
+                    <div class="number">
+                      <h5>
+                        디지털 영웅이 되어주세요.
+                      </h5>
+                    </div>
+                    <h1>
+                      M단계 <br>
+                      <span>
+                        Let's Meet!
+                      </span>
+                    </h1>
+                    <p>
+                      우리의 디지털 세상을 지키는 디프와 만나요!                    
+                    </p>
+                    <div class="btn-box">
+                      <a href="" class="btn-1">
+                        디프만나러가기
+                      </a>
+                      <a href="" class="btn-2">
+                        디폴몬 만나러 가기
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="img-box">
+                    <img src="images/slider-img1.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-5 offset-md-1">
+                  <div class="detail-box">
+                    <div class="number">
+                      <h5>
+                        디지털 영웅이 되어주세요.
+                      </h5>
+                    </div>
+                    <h1>
+                      E단계 <br>
+                      <span>
+                        Let's Enter!
+                      </span>
+                    </h1>
+                    <p>
+                      디지털 세상에 들어가요!
+                    </p>
+                    <div class="btn-box">
+                      <a href="" class="btn-1">
+                        수업 PPT
+                      </a>
+                      <a href="#section-crazy" class="btn-2">
+                        교사용 가이드북
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="img-box">
+                    <img src="images/slider-img2.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-5 offset-md-1">
+                  <div class="detail-box">
+                    <div class="number">
+                      <h5>
+                        사건을 해결해봅시다!
+                      </h5>
+                    </div>
+                    <h1>
+                      T단계 <br>
+                      <span>
+                        Together-Solving 
+                      </span>
+                    </h1>
+                    <p>
+                      모둠원들과 함께 디지털 사건을 해결해요!
+                    </p>
+                    <div class="btn-box">
+                      <a href="" class="btn-1">
+                        모둠 사건카드
+                      </a>
+                      <a href="#section-studentworkbook" class="btn-2">
+                        학생용 워크북
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="img-box">
+                    <img src="images/slider-img3.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-5 offset-md-1">
+                  <div class="detail-box">
+                    <div class="number">
+                      <h5>
+                        혼자 사건을 해결해요!
+                      </h5>
+                    </div>
+                    <h1>
+                      A단계 <br>
+                      <span>
+                        Alone-Solving
+                      </span>
+                    </h1>
+                    <p>
+                      혼자서 디지털 사건을 해결해요!
+                    </p>
+                    <div class="btn-box">
+                      <a href="" class="btn-1">
+                        개인사건카드
+                      </a>
+                      <a href="" class="btn-2">
+                        학생용 워크북
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="img-box">
+                    <img src="images/slider-img4.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- end slider section -->
+  </div>
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding">
+    <div class="container">
+      <div class="detail-box">
+        <div class="heading_container">
+          <img src="images/monde big.png" alt="">
+          <h2>
+            알파천국이란?
+          </h2>
+        </div>
+        <p>
+          초등학교 저학년인 알파 세대의 특성을 반영한 디지털 시민교육 활동세트입니다. 아래에 있는 6명의 디지털 영웅을 도와 다양한 사건들을 해결한 뒤 디프(디지털 프랜드)를 영웅으로 진화시켜주세요.
+        </p>
+        <div class="btn-box">
+          <a href="">
+            <span>
+              <strong>더 알아보기</strong>
+            </span>
+            <img src="images/link-arrow.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+  <!-- digital friend section -->
+
+  <section class="animal_section layout_padding">
+    <div class="container">
+      <div class="animal_container">
+        <h2>
+          <span>우리의 디프</span>
+        </h2>
+        <div class="box b1">
+          <div class="img-box">
+            <img src="images/monde big.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              몬드(monde)
+            </h5>
+            <p>
+              <strong>디지털 정체성</strong><br>
+              <p>
+              남들의 말에 휘둘리지 않고 <br>
+              디지털 세상에서 자신의 모습을 <br>
+              지키기 위해 노력하는 <br>
+              '몬드'입니다.
+              </p>
+            </p>
+          </div>
+        </div>
+        <div class="box b2">
+          <div class="img-box">
+            <img src="images/coop big.png" alt=""
+            width: 197;
+            height: 140;>
+          </div>
+          <div class="detail-box">
+            <h5>
+              쿱(COOP)
+            </h5>
+            <p>
+              <strong>디지털 의사소통과 협력</strong><br>
+              <p>
+              누구에게나 친절한 우리의 친구 <br>
+              '쿱'입니다. 디지털 세상에서<br>
+              친구를 배려하고 협력할수록 <br>
+              더 많은 퍼즐 조각을 얻습니다.
+              </p>
+            </p>
+          </div>
+        </div>
+        <div class="box b1">
+          <div class="img-box">
+            <img src="images/seldi big.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              셀디(SELDI)
+            </h5>
+            <p>
+              <strong>디지털 회복탄력성</strong><br>
+              <p>
+              디지털 기기 사용시간을 <br>
+              관리하며 바르게 사용할 수 있는 <br>
+              '셀디'입니다. 사용 수칙을 <br>
+              잘 지키게 되면 몸과 마음이<br>
+              건강해지는 '별이'를<br>
+              채울 수 있습니다.
+              </p>
+            </p>
+          </div>
+        </div>
+        <div class="box b2">
+          <div class="img-box">
+            <img src="images/rule big.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              룰(RULE)
+            </h5>
+            <p>
+              <strong>디지털 책임과 존중</strong><br>
+              <p>
+              안전한 디지털 세상을 <br>
+              만들기 위해 앞장서는 '룰'입니다.<br>
+              개인정보를 보호하고<br>
+              다른 사람의 권리를 존중할 때<br>
+              '룰'의 날개가 자라고<br>
+              정의의 방패를 얻게 됩니다.
+              </p>
+            </p>
+          </div>
+        </div>
+        <div class="box b1">
+          <div class="img-box">
+            <img src="images/checky big.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              체키(CHECKY)
+            </h5>
+            <p>
+              <strong>디지털 정보판별</strong><br>
+              <p>
+              디지털 세상에서 정보가 <br>
+              옳고 그른지 나에게 필요한<br>
+              정보인지 항상 생각하는<br>
+              '체키'입니다. 정보를 올바르게<br>
+              판단할 때 지혜의 클로버를<br>
+              품을 수 있답니다.
+              </p>
+            </p>
+          </div>
+        </div>
+        <div class="box b2">
+          <div class="img-box">
+            <img src="images/hari big.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              하리(HARI)
+            </h5>
+            <p>
+              <strong>디지털 사회참여</strong><br>
+              <p>
+              모두의 이익을 위해<br>
+              용기있게 앞장서는 '하리'입니다.<br>
+              투표, 댓글, 토론 등의 사회참여<br>
+              활동이 높을수록 '하리'의<br>
+              머리에서 대나무가 우뚝<br>
+              솟아 자랍니다.
+              </p>
+            </p>
+          </div>
+      </div>
+    </div>
+    <div class=more>
+          <a href="about.html">
+            <span>
+              <strong>디프 만나러가기</strong>
+            </span>
+            <img src="images/link-arrow.png" alt="">
+          </a>
+        </div>
+  </section>
+  <!-- digital friend section -->
+
+  <!-- pet section -->
+
+  <section class="pet_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="img-box">
+            <img src="images/pet-img.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <img src="images/seldi big.png" alt="">
+              <h2>
+                명탐정 어드벤처 활동세트
+              </h2>
+            </div>
+            <p>
+              알파천국 여권을 들고 디지털 탐정이 되어 알파천국에서 디폴몬이 일으킨 사건들을 해결해주세요.
+              
+            </p>
+            <div class="btn-box">
+              <a href="">
+                <span>
+                  더 알아보기
+                </span>
+                <img src="images/link-arrow.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end pet section -->
+
+  <!-- food section -->
+<section class="food_section layout_padding">
+  <div class="container">
+    <div class="heading_container">
+      <img src="images/checky big.png" alt="">
+      <h2>
+        명탐정 어드벤처 활동세트
+      </h2>
+      <p>
+        멀티보드판, 사건볼, 개인사건카드, 모둠사건카드, 탐정노트, 알파천국 여권, 생각UP 보드5종
+      </p>
+    </div>
+    <div class="food_container">
+      <div class="box">
+        <div class="img-box">
+          <img src="images/f1.png" alt="">
+        </div>
+        <div class="detail-box">
+          <h3>
+            <span>멀티보드판</span>
+          </h3>
+          <a href="game.html">
+            보러가기
+          </a>
+        </div>
+      </div>
+      <div class="food_container">
+        <div class="box">
+          <div class="img-box">
+            <img src="images/f5.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h3>
+              <span>사건볼</span>
+            </h3>
+            <a href="game.html">
+              보러가기
+            </a>
+          </div>
+        </div>
+      <div class="box">
+        <div class="img-box">
+          <img src="images/f2.png" alt="">
+        </div>
+        <div class="detail-box">
+          <h3>
+            <span>사건카드</span>
+          </h3>
+          <a href="game.html">
+            보러가기
+          </a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="img-box">
+          <img src="images/f3.png" alt="">
+        </div>
+        <div class="detail-box">
+          <h3>
+            <span>생각UP보드</span>
+          </h3>
+          <a href="game.html">
+            보러가기
+          </a>
+        </div>
+      </div>
+      <div class="food_container">
+        <div class="box">
+          <div class="img-box">
+            <img src="images/f4.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h3>
+              <span>탐정노트</span>
+            </h3>
+            <a href="game.html">
+              보러가기
+            </a>
+          </div>
+        </div>
+        <div class="food_container">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/f5.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h3>
+                <span>알파천국여권</span>
+              </h3>
+              <a href="game.html">
+                보러가기
+              </a>
+            </div>
+          </div>
+    </div>
+</div>
+  </div>
+</section>
+<!-- end food section -->
+
+
+  <!-- us section -->
+
+  <section class="us_section layout_padding-bottom">
+    <section id="section-crazy">
+    <div class="container">
+      <div class="heading_container">
+        <img src="images/rule big.png" alt="">
+        <h2>
+          교사용 가이드북
+        </h2>
+        <p>
+          교사용 가이드북은 총 3가지 버전이 있습니다.
+        </p>
+      </div>
+      <div class="us_container">
+        <div class="box">
+          <div class="img1-box">
+            <img src="images/teacher-guidebook1.jpg" alt="">
+          </div>
+          <div class="detail-box">
+            <h6>
+              알파천국 이해편
+            </h6>
+            <div class="row"></div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img1-box">
+            <img src="images/teacher-guidebook2.jpg" alt="">
+          </div>
+          <div class="detail-box">
+            <h6>
+              알파천국 수업편
+            </h6>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img1-box">
+            <img src="images/teacher-guidebook3.jpg" alt="">
+          </div>
+          <div class="detail-box">
+            <h6>
+              알파천국 게임편
+            </h6>
+          </div>
+        </div>
+      </div>
+      <div class="btn-box">
+        <a href="">
+          <span>
+            보러가기
+          </span>
+          <img src="images/link-arrow.png" alt="">
+        </a>
+      </div>
+    </div>
+  </section>
+  </section>
+
+  <!-- end us section -->
+
+ <!-- us section -->
+
+ <section class="us_section layout_padding-bottom">
+  <section id="section-studentworkbook"
+  <div class="container">
+    <div class="heading_container">
+      <img src="images/hari big.png" alt="">
+      <h2>
+        학생용 워크북
+      </h2>
+      <p>
+        학생용 워크북은 총 3가지 버전이 있습니다.
+      </p>
+    </div>
+    <div class="us_container">
+      <div class="box">
+        <div class="img1-box">
+          <img src="images/student-workbook1.jpg" alt="">
+        </div>
+        <div class="detail-box">
+          <h6>
+            디프편
+          </h6>
+          <div class="row"></div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="img1-box">
+          <img src="images/student-workbook2.jpg" alt="">
+        </div>
+        <div class="detail-box">
+          <h6>
+            탐정편
+          </h6>
+        </div>
+      </div>
+      <div class="box">
+        <div class="img1-box">
+          <img src="images/student-workbook3.jpg" alt="">
+        </div>
+        <div class="detail-box">
+          <h6>
+            게임편
+          </h6>
+        </div>
+      </div>
+    </div>
+    <div class="btn-box">
+      <a href="">
+        <span>
+          보러가기
+        </span>
+        <img src="images/link-arrow.png" alt="">
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- end us section -->
+
+  <!-- food section -->
+  <section class="food_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <img src="images/checky big.png" alt="">
+        <h2>
+          온-오프라인 게임
+        </h2>
+        <p>
+          알파천국에서 배운 내용을 온-오프라인 게임으로 즐기면서 복습해요.
+        </p>
+      </div>
+      <div class="food_container">
+        <div class="box">
+          <div class="img-box">
+            <img src="images/save-digital-hero.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h3>
+              <span>디지털 히어로 구하기 보드게임 세트</span>
+            </h3>
+            <a href="game.html">
+             더 알아보기
+            </a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/metaverse.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h3>
+              <span>디지털 히어로 메타버스</span>
+            </h3>
+            <a href="game.html">
+              더 알아보기
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end food section --> 
+
+  <!-- contact section -->
+
+  <section class="contact_section layout_padding-top">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5 offset-md-1">
+          <div class="form_container">
+            <div class="heading_container">
+              <img src="images/monde big.png" alt="">
+              <h2>
+                나의 사건일지를 작성해요
+              </h2>
+              <p>
+                탐정님! 디지털 사건을 해결하고 사건일지를 작성해주세요.              
+              </p>
+            </div>
+            <form action="">
+              <div>
+                <input type="text" placeholder="탐정 아이디 " />
+              </div>
+              <div>
+                <input type="date" placeholder="오늘의 날짜" />
+              </div>
+              <div>
+                <input type="email" placeholder="새롭게 배운것은?" />
+              </div>
+              <div>
+                <input type="text" class="message-box" placeholder="사건 사진을 올려주세요"
+              <div class="d-flex ">
+                <button>
+                  SEND
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end contact section -->
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section ">
+    <p>
+      &copy; 2023 All Rights Reserved. Design by alphaworld
+    </p>
+  </section>
+  <!-- end  footer section -->
+
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script>
+    function openNav() {
+      document.getElementById("myNav").classList.toggle("menu_width")
+      document.querySelector(".custom_menu-btn").classList.toggle("menu_btn-style")
+    }
+  </script>
+
+</body>
+
+</html>
